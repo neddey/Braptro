@@ -21,7 +21,7 @@ SMODS.Back {
     },
 
     calculate = function(self, card, context)
-        if context.destroy_card and context.cardarea == G.play then
+        if context.destroy_card and context.cardarea == G.play and G.GAME.current_round.hands_played == 0 then
             return { remove = true }
         end
     end,
