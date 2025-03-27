@@ -12,7 +12,7 @@ SMODS.Joker {
     },
 
     atlas = 'jokers',
-    rarity = 2,
+    rarity = 1,
     cost = 6,
     unlocked = true,
     discovered = true,
