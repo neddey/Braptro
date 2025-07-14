@@ -14,7 +14,7 @@ SMODS.Joker {
     unlocked = true,
     discovered = true,
     rarity = 2,
-    cost = 1, --need to set this
+    cost = 8,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,
@@ -32,7 +32,7 @@ SMODS.Joker {
         return { vars = {} }
     end,
 
-    in_pool = function(self, args) -- equivalent to `yes_pool_flag = 'vremade_gros_michel_extinct'`
+    in_pool = function(self, args)
         return false
     end,
 }
