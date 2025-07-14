@@ -11,7 +11,7 @@ SMODS.Joker {
     },
 
     atlas = 'jokers',
-    pos = { x = 9, y = 0 },
+    pos = { x = 0, y = 4 },
     config = { extra = { xmult = 1 } },
     unlocked = true,
     discovered = true,
