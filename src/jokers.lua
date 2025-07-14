@@ -7,6 +7,7 @@ SMODS.Atlas {
 
 -- Common
 SMODS.load_file('src/jokers/freeparking.lua')()
+SMODS.load_file('src/jokers/cultjoker.lua')()
 SMODS.load_file('src/jokers/babyjoker.lua')()
 SMODS.load_file('src/jokers/sandcastle.lua')()
 SMODS.load_file('src/jokers/seniorjoker.lua')()
