@@ -13,7 +13,7 @@ SMODS.Joker {
 
     atlas = 'jokers',
     rarity = 1,
-    cost = 6,
+    cost = 5,
     unlocked = true,
     discovered = true,
     blueprint_compat = true ,
@@ -30,7 +30,9 @@ SMODS.Joker {
         if context.joker_main then
             prev_hand = prev_hand or context.scoring_name
             if  prev_hand == context.scoring_name then
-                card.ability.extra.mult = card.ability.extra.mult + 3
+                if not context.blueprint then
+                    card.ability.extra.mult = card.ability.extra.mult + 3
+                end
                 return { mult = card.ability.extra.mult }
             else
                 card.ability.extra.mult = 0
