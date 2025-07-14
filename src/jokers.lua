@@ -19,6 +19,7 @@ SMODS.load_file('src/jokers/eggcarton.lua')()
 SMODS.load_file('src/jokers/lastlaugh.lua')()
 SMODS.load_file('src/jokers/adultjoker.lua')()
 SMODS.load_file('src/jokers/escalator.lua')()
+SMODS.load_file('src/jokers/tightrope.lua')()
 SMODS.load_file('src/jokers/devildetails.lua')()
 SMODS.load_file('src/jokers/congregation.lua')()
 
