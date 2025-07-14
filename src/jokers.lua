@@ -16,6 +16,7 @@ SMODS.load_file('src/jokers/seniorjoker.lua')()
 SMODS.load_file('src/jokers/eggcarton.lua')()
 SMODS.load_file('src/jokers/lastlaugh.lua')()
 SMODS.load_file('src/jokers/adultjoker.lua')()
+SMODS.load_file('src/jokers/devildetails.lua')()
 SMODS.load_file('src/jokers/congregation.lua')()
 
 -- Rare
