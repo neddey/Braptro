@@ -23,6 +23,7 @@ SMODS.load_file('src/jokers/congregation.lua')()
 
 -- Rare
 SMODS.load_file('src/jokers/gbbug.lua')()
+SMODS.load_file('src/jokers/piggybank.lua')()
 SMODS.load_file('src/jokers/slotmachine.lua')()
 SMODS.load_file('src/jokers/chaoscard.lua')()
 
