@@ -19,6 +19,7 @@ SMODS.load_file('src/jokers/adultjoker.lua')()
 -- Rare
 SMODS.load_file('src/jokers/gbbug.lua')()
 SMODS.load_file('src/jokers/slotmachine.lua')()
+SMODS.load_file('src/jokers/chaoscard.lua')()
 
 -- Legendary
 SMODS.load_file('src/jokers/jevil.lua')()
