@@ -27,7 +27,7 @@ SMODS.Joker {
     end,
 
     calculate = function(self, card, context)
-        if (context.individual) and (context.other_card:get_id() == 7) and (context.cardarea == G.play) then
+        if context.individual and context.other_card:get_id() == 7 and context.cardarea == G.play then
             if pseudorandom('slotmachinespecial') <= G.GAME.probabilities.normal/30 then
                 return {
                     chips = 80,
@@ -54,7 +54,7 @@ SMODS.Joker {
                 return result
             end
         end
-        if context.cardarea == G.play and context.repetition then
+        if context.cardarea == G.play and context.repetition and context.other_card:get_id() == 7 then
             return {
                 message = 'Again!',
                 repetitions = 1,
