@@ -12,6 +12,7 @@ SMODS.load_file('src/jokers/babyjoker.lua')()
 SMODS.load_file('src/jokers/sandcastle.lua')()
 SMODS.load_file('src/jokers/seniorjoker.lua')()
 SMODS.load_file('src/jokers/jonkler.lua')()
+SMODS.load_file('src/jokers/plus2.lua')()
 
 -- Uncommon
 SMODS.load_file('src/jokers/eggcarton.lua')()
