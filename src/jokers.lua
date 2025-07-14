@@ -7,12 +7,14 @@ SMODS.Atlas {
 
 -- Common
 SMODS.load_file('src/jokers/freeparking.lua')()
+SMODS.load_file('src/jokers/babyjoker.lua')()
 SMODS.load_file('src/jokers/sandcastle.lua')()
 SMODS.load_file('src/jokers/seniorjoker.lua')()
 
 -- Uncommon
 SMODS.load_file('src/jokers/eggcarton.lua')()
 SMODS.load_file('src/jokers/lastlaugh.lua')()
+SMODS.load_file('src/jokers/adultjoker.lua')()
 
 -- Rare
 SMODS.load_file('src/jokers/gbbug.lua')()
