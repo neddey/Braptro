@@ -1,5 +1,5 @@
 SMODS.Joker {
-    key = 'freejoker',
+    key = 'freeparking',
     loc_txt = {
         name = 'Free Parking',
         text = {
@@ -10,8 +10,8 @@ SMODS.Joker {
     },
 
     atlas = 'jokers',
-    rarity = 2,
-    cost = 7,
+    rarity = 1,
+    cost = 6,
     unlocked = true,
     discovered = true,
     blueprint_compat = true,
