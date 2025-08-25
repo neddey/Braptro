@@ -4,8 +4,8 @@ SMODS.Back {
         name = 'Enchantment Deck',
         text = {
             'Start run with',
-            'Hone and Glow Up',
-            '-1 discards',
+            '{C:dark_edition,T:v_hone}Hone{} and {C:dark_edition,T:v_glow_up}Glow Up{}',
+            '{C:mult}-1{} Discards',
         }
     },
     atlas = 'decks',

@@ -3,10 +3,10 @@ SMODS.Back {
     loc_txt = {
         name = 'Investment Deck',
         text = {
-            'Start run with Seed Money',
-            'and an extra $10',
-            'Every joker becomes',
-            'rental after boss blind' ,
+            'Start run with {C:money,T:v_seed_money}Seed Money{}',
+            'and an extra {C:money}$10{}',
+            'Every {C:default}Joker{} becomes',
+            '{C:gold,E:1}rental{} after Boss Blind' ,
         }
     },
     atlas = 'decks',
@@ -21,7 +21,7 @@ SMODS.Back {
 
     calculate = function(self, card, context)
         if G.GAME.blind.boss and context.end_of_round then
-            for i, v in ipairs(G.jokers.cards) do
+            for _, v in ipairs(G.jokers.cards) do
                 v:set_rental(true)
             end
         end

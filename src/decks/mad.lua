@@ -3,10 +3,10 @@ SMODS.Back {
     loc_txt = {
         name = 'Mad Deck',
         text = {
-            'Start run with Magic trick,',
-            'Illusion, and Directors Cut',
-            'The cards of the first hand of every',
-            'round are destroyed after scoring',
+            'Start run with',
+            'Two{C:spectral,E:2} Black Hole {},',
+            '{C:attention}-1{} Hand Size, ',
+            '{C:chips}-1{} Hands,{C:mult}-1{} Discards',
         }
     },
     atlas = 'decks',
